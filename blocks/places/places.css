@@ -168,7 +168,7 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    padding: 64px 16px 0;
+    padding: 64px 0 0;
   }
 
   .places__row {
@@ -181,10 +181,15 @@
     font-weight: 900;
     font-size: 42px;
     line-height: 46px;
+    padding: 0 16px;
+  }
+
+  .places__website {
+    padding: 0 16px;
   }
 
   .places__image {
-    margin: 0 -16px;
+    margin: 0;
     width: calc(100% + 32px);
   }
 
@@ -195,6 +200,7 @@
     font-size: 16px;
     line-height: 163%;
     letter-spacing: 0%;
+    padding: 0 16px;
   }
 }
 

@@ -1,6 +1,7 @@
 .lead {
   padding-top: 56px;
   margin: auto;
+  max-width: 984px;
 }
 
 .lead__title {
@@ -32,7 +33,6 @@
   justify-self: center;
   object-fit: cover;
   width: 100%;
-  height: 100%;
 }
 
 .lead__caption {

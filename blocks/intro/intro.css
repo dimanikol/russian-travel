@@ -1,6 +1,5 @@
 .intro {
-  width: 100%;
-  margin-left: 148px;
+  margin: 0 0 92px 148px;
   padding-top: 114px;
 }
 
@@ -16,6 +15,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
+  max-width: 680px;
 }
 
 .intro__list {

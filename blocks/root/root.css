@@ -1,6 +1,11 @@
 @font-face {
   font-family: "inter";
   src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Regular.ttf) format("truetype");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("truetype");
+  src: url(../../fonts/Inter-4.1/extras/otf/Inter-Regular.otf) format("opentype");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("opentype");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Regular.woff2) format("Web Open Font Format 2");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.woff2) format("Web Open Font Format 2");
   font-style: normal; 
   font-weight: normal; 
 }
