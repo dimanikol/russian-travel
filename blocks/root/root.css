@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "inter";
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Regular.ttf) format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+body {
+  background: #2A2C2F;
+}
+
