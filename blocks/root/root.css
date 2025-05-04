@@ -1,13 +1,31 @@
 @font-face {
-  font-family: "inter";
+  font-family: "Inter";
   src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Regular.ttf) format("truetype");
-  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("truetype");
   src: url(../../fonts/Inter-4.1/extras/otf/Inter-Regular.otf) format("opentype");
-  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("opentype");
   src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Regular.woff2) format("Web Open Font Format 2");
-  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.woff2) format("Web Open Font Format 2");
   font-style: normal; 
   font-weight: normal; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("truetype");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.ttf) format("opentype");
+  src: url(../../fonts/Inter-4.1/extras/ttf/Inter-Bold.woff2) format("Web Open Font Format 2");
+  font-style: normal; 
+  font-weight: 900; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 body {

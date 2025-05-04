@@ -87,7 +87,27 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 555px) {
+  .cover {
+    padding: 0 0 66px 0;
+  }
+
+  .cover__text-absolute {
+    top: 20%;
+  }
+
+  .cover__title {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 288px;
+  }
+}
+
+@media screen and (max-width: 410px) {
   .cover {
     padding: 0 0 66px 0;
   }
