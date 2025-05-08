@@ -1,6 +1,12 @@
 .intro {
-  margin: 0 0 92px 148px;
-  padding-top: 114px;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 148px 0;
+  width: 100%;
+}
+
+.intro__text {
+  max-width: 690px;
 }
 
 .intro__title {
@@ -8,14 +14,15 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  margin: 0 0 42px 0;
 }
 
-.intro__text {
+.intro__paragraph {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  max-width: 680px;
+  margin-bottom: 33px;
 }
 
 .intro__list {
@@ -27,20 +34,19 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
-    margin-left: 48px;
+    padding: 92px 48px 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    margin-left: 24px;
+    padding: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    margin-left: 16px;
-    padding-top: 64px;
+    padding: 64px 16px 0;
   }
 
   .intro__title {

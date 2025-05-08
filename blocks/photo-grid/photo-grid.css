@@ -5,7 +5,7 @@
   grid-template-rows: repeat(3, 1fr);
   padding-top: 92px;
   margin: auto;
-  padding: 0 48px;
+  padding: 92px 48px 0;
 }
 
 .photo-grid__item {
@@ -18,7 +18,7 @@
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    padding: 0 48px;
+    padding: 92px 48px 0;
   }
 }
 
@@ -26,7 +26,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    padding: 0 24px;
+    padding: 88px 24px 0;
   }
 }
 
@@ -34,6 +34,6 @@
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    padding: 0 16px;
+    padding: 64px 16px 0;
   }
 }
