@@ -16,6 +16,7 @@
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .footer__copyright {
@@ -42,8 +43,22 @@
   }
 
   .footer__links {
-    flex-direction: column;
     row-gap: 32px;
+  }
+
+  .footer__link {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    padding: 0 24px ;
+  }
+
+  .footer__links {
+    row-gap: 32px;
+    flex-direction: column;
   }
 
   .footer__link {
@@ -55,11 +70,14 @@
   .footer {
     padding: 0 16px ;
     flex-direction: column;
+    column-gap: 48px;
   }
 
   .footer__links {
     flex-direction: column;
     row-gap: 32px;
+    line-height: 24px;
+    font-size: 24px;
   }
 
   .footer__link {
@@ -68,5 +86,7 @@
 
   .footer__copyright {
     margin-top: 48px;
+    line-height: 14px;
+    font-size: 14px;
   }
 } 

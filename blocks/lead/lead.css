@@ -65,11 +65,8 @@
   }
 
   .lead__subtitle {
-    font-family: Inter;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 0%;
-    text-align: center;
+    padding:  16px 16px 40px;
   }
 }

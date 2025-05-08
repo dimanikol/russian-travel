@@ -22,6 +22,10 @@
   row-gap: 48px;
 }
 
+.places__list-item:last-child {
+  margin: 0;
+}
+
 .places__row {
   display: flex;
   align-items:stretch;
@@ -167,6 +171,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .places__list-item {
+    margin-bottom: 50px;
+  }
+
   .places {
     padding: 64px 0 0;
   }
@@ -203,4 +211,3 @@
     padding: 0 16px;
   }
 }
-
