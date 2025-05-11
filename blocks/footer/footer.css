@@ -4,7 +4,7 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 48px;
+  padding: 0 48px 24px;
 }
 
 .footer__links {

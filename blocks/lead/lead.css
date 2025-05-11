@@ -18,7 +18,6 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
   text-align: center;
   max-width: 640px;
   margin: auto;
@@ -52,21 +51,25 @@
   .lead {
     padding: 56px 0 0;
   }
+
+  .lead__caption {
+    padding-left: 24px;
+  } 
 }
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    font-family: Inter;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    letter-spacing: 0%;
-    text-align: center;
   }
 
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
     padding:  16px 16px 40px;
+  }
+
+  .lead__caption {
+    padding-left: 16px;
   }
 }

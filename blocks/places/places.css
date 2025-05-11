@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  margin: 0;
 }
 
 .places__list-item {
@@ -112,7 +111,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  letter-spacing: 0%;
   margin: 0;
 }
 
@@ -135,11 +133,8 @@
   }
 
   .places__title {
-    font-family: Inter;
-    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: 0%;
   }
 }
 
@@ -149,8 +144,6 @@
   }
 
   .places__title {
-    font-family: Inter;
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }
@@ -162,11 +155,8 @@
 
 
   .places__paragraph {
-    font-family: Inter;
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    letter-spacing: 0%;
 }
 }
 
@@ -185,8 +175,6 @@
   }
 
   .places__title {
-    font-family: Inter;
-    font-weight: 900;
     font-size: 32px;
     line-height: 46px;
     padding: 0 16px;
